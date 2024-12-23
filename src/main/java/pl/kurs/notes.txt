@@ -1,0 +1,13 @@
+Zrobic encje bazodanowa: Laptop(po angielsku), Telefon(po ang)
+
+W srodku klasycznie ID autogenerowane, nazwa, model, cena, ilosc sztuk dostepny, stan(enum - nowy,uzywany)
+
+Niech tabele/kolumny nazywaja sie po polsku, ale odwzorowanie w javie po angielsku.
+
+Zrob do tego DAO, pomysl czy da sie zrobic generycznie.
+
+Zrob do tego serwis, w ktorym bedzie odczyt oraz zapis. Podczas zapisu sprawdzaj czy wszystkie pola sa uzupelnione.
+
+Jezeli jakies pole nie bedzie uzupelnione, to zwykly komunikat wystarczy.
+
+W runnerze pobierz obydwa serwisy i zapisz/odczytaj kilka obiektow.
