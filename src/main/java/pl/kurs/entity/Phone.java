@@ -7,7 +7,7 @@ import lombok.Setter;
 import lombok.ToString;
 
 @Entity
-@Table(name = "telefon")
+@Table(name = "telefony")
 @NoArgsConstructor
 @Getter
 @Setter
@@ -22,7 +22,7 @@ public class Phone {
     private String model;
     @Column(name = "cena")
     private Double price;
-    @Column(name = "ilośćSztuk")
+    @Column(name = "ilosc_sztuk")
     private Integer quantity;
     @Enumerated(value = EnumType.STRING)
     @Column(name = "stan")
